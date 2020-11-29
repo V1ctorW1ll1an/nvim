@@ -23,4 +23,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Status line
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airlIne/vim-airline-themes'
+    " Ranger
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
+    " Rainbow parentheses
+    Plug 'junegunn/rainbow_parentheses.vim'
+    " Git
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
+    Plug 'preservim/nerdcommenter'
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
