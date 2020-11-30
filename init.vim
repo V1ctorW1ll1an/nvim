@@ -9,4 +9,4 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/rainbow.vim
 source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/nerdCommenter.vim
-
+source $HOME/.config/nvim/keys/which-key.vim

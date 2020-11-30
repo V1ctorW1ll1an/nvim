@@ -37,4 +37,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     Plug 'preservim/nerdcommenter'
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-call plug#end()
+    " Which-key
+    Plug 'liuchengxu/vim-which-key'
+    call plug#end()
