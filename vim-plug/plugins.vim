@@ -31,12 +31,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Rainbow parentheses
     Plug 'junegunn/rainbow_parentheses.vim'
     " Git
-    Plug 'mhinz/vim-signify'
+    Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+    Plug 'rhysd/git-messenger.vim'
+    " Commenter
     Plug 'preservim/nerdcommenter'
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     " Which-key
     Plug 'liuchengxu/vim-which-key'
-    call plug#end()
+    " Terminal
+    Plug 'voldikss/vim-floaterm'
+call plug#end()
+
