@@ -15,14 +15,23 @@
   ],
   // python config
   "python.linting.enabled": true,
+  "python.jediEnabled": false,
   "python.linting.pylintEnabled": true,
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
   // explorer
-  "explorer.width": 30,
+  "explorer.width": 40,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
+  },
+  "diagnostic.virtualText": true,
+  "explorer.quitOnOpen": true,
+  "signature.enable": true,
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "omnisharp.version": "v1.37.3",
+  "omnisharp.trace.server": "information",
+  "omnisharp.debug.server": true
 }
