@@ -44,5 +44,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     " Terminal
     Plug 'voldikss/vim-floaterm'
+    " C#
+    Plug 'OmniSharp/omnisharp-vim'
 call plug#end()
 

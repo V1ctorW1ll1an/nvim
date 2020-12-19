@@ -13,4 +13,5 @@ source $HOME/.config/nvim/plug-config/coc/coc.vim
 source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
 source $HOME/.config/nvim/plug-config/gitgutter.vim
 source $HOME/.config/nvim/plug-config/git-messenger.vim
+source $HOME/.config/nvim/plug-config/omnisharp.vim
 
