@@ -46,5 +46,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     " C#
     Plug 'OmniSharp/omnisharp-vim'
+    " Statusline
+    Plug 'itchyny/lightline.vim'
+    Plug 'shinchu/lightline-gruvbox.vim'
+    Plug 'maximbaz/lightline-ale'
+    " Linting/error highlighting
+    Plug 'dense-analysis/ale'
+    " Mappings, code-actions available flag and statusline integration
+    Plug 'nickspoons/vim-sharpenup'
+    " Autocompletion
+    Plug 'prabirshrestha/asyncomplete.vim'
 call plug#end()
 

@@ -11,7 +11,8 @@
     "typescript",
     "vue",
     "tsx",
-    "scss"
+    "scss",
+    "cs"
   ],
   // python config
   "python.linting.enabled": true,
