@@ -2,6 +2,8 @@
 
 nvim as IDE
 
+<img src="https://user-images.githubusercontent.com/47677499/103386760-23940e00-4adf-11eb-8389-18705106a5a8.png" align="center" alt="Java" width="1000px"/>
+
 # Ubuntu
 
 > $ cd ~/.config
@@ -11,8 +13,3 @@ nvim as IDE
 > $ cd nvim
 >
 > $ nvim init.vim
-
-De enter caso apareça alguns erros no modo "normal",
-depois digite :PlugInstall
-dê enter
-e espere a instalação
