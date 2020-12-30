@@ -17,6 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Themes
     Plug 'joshdick/onedark.vim'   
     Plug 'morhetz/gruvbox'
+    Plug 'arcticicestudio/nord-vim'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Keeping up to date with master
@@ -56,5 +57,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nickspoons/vim-sharpenup'
     " Autocompletion
     Plug 'prabirshrestha/asyncomplete.vim'
+    " startify
+    Plug 'mhinz/vim-startify'
+    " Latex
+    Plug 'lervag/vimtex'
 call plug#end()
 
