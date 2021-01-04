@@ -61,5 +61,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
     " Latex
     Plug 'lervag/vimtex'
+    " A Vim Plugin for Lively Previewing LaTeX PDF Output
+    Plug 'latex-box-team/latex-box'
 call plug#end()
 
