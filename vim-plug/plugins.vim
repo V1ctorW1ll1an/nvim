@@ -18,6 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'joshdick/onedark.vim'   
     Plug 'morhetz/gruvbox'
     Plug 'arcticicestudio/nord-vim'
+    Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Keeping up to date with master
