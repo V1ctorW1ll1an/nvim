@@ -39,5 +39,8 @@
   "suggest.floatEnable": true,
   "diagnostic.messageTarget": "float",
   "signature.target": "float",
-  "coc.preferences.hoverTarget": "float"
+  "coc.preferences.hoverTarget": "float",
+  "clangd.path": "/home/victor/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+  "clangd.checkUpdates": true,
+  "clangd.disableDiagnostics": false
 }

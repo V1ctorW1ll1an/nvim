@@ -1,6 +1,6 @@
 " Lightline: {{{
 let g:lightline = {
-\ 'colorscheme': 'gruvbox',
+\ 'colorscheme': 'onedark',
 \ 'active': {
 \   'right': [
 \     ['linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok'],
