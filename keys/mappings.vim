@@ -13,10 +13,10 @@ nmap <c-s> :w<CR>
 vmap <c-s> <Esc><c-s>gv 
 imap <c-s> <Esc><c-s>
 
-noremap <f2> :Latexmk<Cr>
+" Latex
+nnoremap <F2> :Latexmk<CR> :LatexView<CR>
 
 " Basic Key Mappings
-
 imap <C-h> <C-w>h
 imap <C-j> <C-w>j
 imap <C-k> <C-w>k
