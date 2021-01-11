@@ -10,7 +10,7 @@ imap <left> <nop>
 imap <right> <nop>
 " Alternate way to save " ctrl s = save 
 nmap <c-s> :w<CR> 
-vmap <c-s> <Esc><c-s>gv 
+" vmap <c-s> <Esc>gv
 imap <c-s> <Esc><c-s>
 
 " Latex
