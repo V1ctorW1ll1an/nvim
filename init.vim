@@ -26,4 +26,6 @@ source $HOME/.config/nvim/plug-config/omnisharp.vim
 source $HOME/.config/nvim/plug-config/sharpenup.vim
 source $HOME/.config/nvim/plug-config/asyncomplete.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
+source $HOME/.config/nvim/plug-config/ctrp-p.vim
+source $HOME/.config/nvim/plug-config/search-word.vim
 
