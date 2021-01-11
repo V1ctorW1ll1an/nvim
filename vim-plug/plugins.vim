@@ -64,5 +64,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'lervag/vimtex'
     " A Vim Plugin for Lively Previewing LaTeX PDF Output
     Plug 'latex-box-team/latex-box'
+    " ctrl + p vim
+    Plug 'kien/ctrlp.vim'
+    " Search
+    Plug   'eugen0329/vim-esearch'
 call plug#end()
+
 
