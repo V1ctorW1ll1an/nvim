@@ -77,20 +77,6 @@ xmap af <Plug>(coc-funcobj-a)
 omap if <Plug>(coc-funcobj-i)
 omap af <Plug>(coc-funcobj-a)
 
-" Remap <C-f> and <C-b> for scroll float windows/popups.
-" Note coc#float#scroll works on neovim >= 0.4.3 or vim >= 8.2.0750
-nnoremap <nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
-nnoremap <nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
-inoremap <nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<Right>"
-inoremap <nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<Left>"
-
-" NeoVim-only mapping for visual mode scroll
-" Useful on signatureHelp after jump placeholder of snippet expansion
-if has('nvim')
-  vnoremap <nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#nvim_scroll(1, 1) : "\<C-f>"
-  vnoremap <nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#nvim_scroll(0, 1) : "\<C-b>"
-endif
-
 " Add `:Format` command to format current buffer.
 command! -nargs=0 Format :call CocAction('format')
 
