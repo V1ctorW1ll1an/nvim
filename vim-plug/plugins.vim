@@ -19,13 +19,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'morhetz/gruvbox'
     Plug 'arcticicestudio/nord-vim'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+    Plug 'sonph/onehalf', { 'rtp': 'vim' }
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Keeping up to date with master
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
     " Status line
     Plug 'vim-airline/vim-airline'
-    Plug 'vim-airlIne/vim-airline-themes'
+    Plug 'vim-airline/vim-airline-themes'
     " Ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

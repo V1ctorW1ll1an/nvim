@@ -4,8 +4,10 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 
 " THEMES
-" source $HOME/.config/nvim/themes/onedark.vim
-source $HOME/.config/nvim/themes/nord.vim
+source $HOME/.config/nvim/themes/onedark.vim
+" source $HOME/.config/nvim/themes/nord.vim
+" source $HOME/.config/nvim/themes/material.vim
+" source $HOME/.config/nvim/themes/onehalf.vim
 " source $HOME/.config/nvim/themes/gruvbox.vim
 " source $HOME/.config/nvim/themes/material-theme.vim
 source $HOME/.config/nvim/themes/airline.vim
