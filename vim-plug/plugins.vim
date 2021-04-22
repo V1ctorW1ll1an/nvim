@@ -12,13 +12,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'scrooloose/NERDTree'
+    " maximize 
+    Plug 'szw/vim-maximizer'
+    " debugging in vim
+    Plug 'puremourning/vimspector'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
+    Plug 'ayu-theme/ayu-vim'
+    Plug 'flazz/vim-colorschemes'
     Plug 'joshdick/onedark.vim'   
     Plug 'morhetz/gruvbox'
     Plug 'arcticicestudio/nord-vim'
-    Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+    Plug 'dracula/vim', { 'as': 'dracula' }
     Plug 'sonph/onehalf', { 'rtp': 'vim' }
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
