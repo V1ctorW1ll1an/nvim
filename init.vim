@@ -13,6 +13,8 @@ source $HOME/.config/nvim/keys/mappings.vim
 " source $HOME/.config/nvim/themes/ayu.vim
 " source $HOME/.config/nvim/themes/dracula.vim
 " source $HOME/.config/nvim/themes/material.vim
+
+
 source $HOME/.config/nvim/themes/colorscheme.vim
 source $HOME/.config/nvim/themes/airline.vim
 
@@ -33,5 +35,4 @@ source $HOME/.config/nvim/plug-config/sharpenup.vim
 source $HOME/.config/nvim/plug-config/asyncomplete.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/ctrp-p.vim
-source $HOME/.config/nvim/plug-config/search-word.vim
 

@@ -73,8 +73,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'latex-box-team/latex-box'
     " ctrl + p vim
     Plug 'kien/ctrlp.vim'
-    " Search
-    Plug   'eugen0329/vim-esearch'
     " Dracula
     Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
